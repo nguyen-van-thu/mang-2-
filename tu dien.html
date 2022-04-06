@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dmeo</title>
+</head>
+<body>
+<script>
+let English = ['hi', 'hello', 'goodbye', 'love', 'book'];
+let Vietnamese = ['xin chao', 'cung la xin chao','tam biet','tinh yeu','sach'];
+let word = prompt('search').toLowerCase();
+    let index =English.indexOf(word.toLowerCase());
+    console.log(index)
+    if (index == - 1){
+        alert('khong co');
+    }else {
+        alert(Vietnamese[index])
+    }
+
+</script>
+</body>
+</html>
